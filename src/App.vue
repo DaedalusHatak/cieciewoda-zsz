@@ -1,11 +1,18 @@
 <template>
-	<v-app>
+	<v-app >
 		
 		<v-app-bar app>
       
-			<v-app-bar-nav-icon class="hidden-sm-and-up" variant="text" @click="drawer = !drawer">
+			
+			<v-toolbar-title ><v-img
+				contain
+				lazy-src="https://picsum.photos/id/11/10/6"
+				max-height="100"
+				max-width="200"
+				src="./assets/logodark.png"
+			  ></v-img></v-toolbar-title>
+			  <v-app-bar-nav-icon class="hidden-sm-and-up" variant="text" @click="drawer = !drawer">
 			</v-app-bar-nav-icon>
-			<v-toolbar-title>Coding Beauty</v-toolbar-title>
 			<v-toolbar-items class="hidden-xs">
 				<v-btn flat v-for="items in router.getRoutes()" :key="items.name" :to="items.path">{{
 					items.name
@@ -31,9 +38,6 @@
 	
 		</v-main>
 
-		<v-footer app>
-			<!-- -->
-		</v-footer>
 	</v-app>
 </template>
 

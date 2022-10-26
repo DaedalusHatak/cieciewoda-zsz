@@ -1,6 +1,6 @@
 <template>
     <div class="d-flex flex-column block align-center background justify-center text-white">
-        <h1 class="text-h2">{{props.heading}}</h1>
+        <h1 class="text-xs-h6 text-md-h3 text-lg-h2">{{props.heading}}</h1>
         <slot>
           
         </slot>
