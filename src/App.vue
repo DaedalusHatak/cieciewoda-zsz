@@ -64,7 +64,7 @@
 				<v-col class="py-5" cols="12" md="4">
 					<p class="text-body-2">Ciesielska 2</p>
 					<p><b>15-544 Białystok</b></p>
-					<p>	
+					<p class="my-4">	
 						<a href="tel:+48 732 721 521">+48 732 721 521</a></p>
 					<p> <a href="mailto:cieciewoda3d@wp.pl">CIECIEWODA3D@WP.PL</a></p>
 				</v-col>
@@ -102,9 +102,11 @@ const items = [
 .v-footer p {
 	padding: 8px 0 0 0 !important;
 }
+
 .v-footer a{
+	
 	text-decoration: none;
-	color:#2b84dd;
+	color:orange;
 }
 .v-footer .v-img {
 	max-width: 290px;
