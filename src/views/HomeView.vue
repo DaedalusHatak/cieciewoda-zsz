@@ -1,5 +1,5 @@
 <template>
-	<v-container class="bg-aqua" height="auto" center>
+	<v-container class="bg-aqua" height="auto"  center>
 		<HeaderBackground v-bind:heading="start">
 			<p class="text-h6 mt-16 pt-16">
 				Cięcie materiału metodą Abrasive WaterJet(AWJ).
