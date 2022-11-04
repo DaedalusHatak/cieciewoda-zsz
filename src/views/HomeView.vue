@@ -1,7 +1,9 @@
 <template>
 	<v-container class="bg-aqua" height="auto" center>
 		<HeaderBackground v-bind:heading="start">
-			<p class="text-h6 mt-16 pt-16"> Cięcie materiału metodą Abrasive WaterJet(AWJ). </p>
+			<p class="text-h6 mt-16 pt-16">
+				Cięcie materiału metodą Abrasive WaterJet(AWJ).
+			</p>
 			<p class="text-h6 pa-12"
 				>Cięcie metalu, płytek, granitu, drewna, tworzyw sztucznych o grubości
 				nie przekraczającej 200mm.</p
@@ -9,7 +11,9 @@
 		></v-container
 	>
 	<v-container fluid class="pa-0"><CarouselText /></v-container>
-  <v-container fluid class="bg-dark pa-0"><h1 class="pt-5">Nasza galeria:</h1><CarouselImage /></v-container>
+	<v-container fluid class="bg-dark pa-0"
+		><h1 class="pt-5">Nasza galeria:</h1><CarouselImage
+	/></v-container>
 </template>
 
 <script setup>
@@ -19,17 +23,16 @@ import HeaderBackground from '../components/HeaderBackground.vue';
 import CarouselImage from '../components/CarouselImage.vue';
 const start = 'Profesjonalne cięcie wodą!';
 </script>
-<style lang="scss" scoped >
-.bg-dark{
-	color:white;
+<style lang="scss" scoped>
+.bg-dark {
+	color: white;
 	background-color: #212121;
 }
-.background{
-
-min-height:100vh;
-h1{
-  padding-bottom: 4em !important;
-}
+.background {
+	min-height: 100vh;
+	h1 {
+		padding-bottom: 4em !important;
+	}
 }
 .v-container {
 	padding: 0;

@@ -1,30 +1,31 @@
 <template>
-
-        <v-table 
-        class=" maximum border mx-auto w-100"  theme="dark">
-            <thead>
-                <tr>
-                    <th class="text-center">Usługa</th>
-                    <th class="text-center"> Cena </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr v-for="item in priceTags" :key="item.name">
-                    <td>{{ item.name }}</td>
-                    <td>{{ item.price }}</td>
-                </tr>
-            </tbody>
-        </v-table>
-
-    
+	<v-table class="maximum border mx-auto w-100" theme="dark">
+		<thead>
+			<tr>
+				<th class="text-center">Usługa</th>
+				<th class="text-center"> Cena </th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr v-for="item in priceTags" :key="item.name">
+				<td>{{ item.name }}</td>
+				<td>{{ item.price }}</td>
+			</tr>
+		</tbody>
+	</v-table>
 </template>
 
 <script setup>
-const priceTags = [{ name: 'Cięcie płytek (kąt prosty)', price: "15zł" },{ name: 'Cięcie płytek (kąt 45st)', price: "30zł" },{ name: 'Minuta cięcia', price: "6zł" },{ name: 'Przygotowanie projektu', price: "----" }];
+const priceTags = [
+	{ name: 'Cięcie płytek (kąt prosty)', price: '15zł' },
+	{ name: 'Cięcie płytek (kąt 45st)', price: '30zł' },
+	{ name: 'Minuta cięcia', price: '6zł' },
+	{ name: 'Przygotowanie projektu', price: '----' },
+];
 </script>
 
 <style scoped>
-.maximum{
-    max-width: 1000px !important;
+.maximum {
+	max-width: 1000px !important;
 }
 </style>
