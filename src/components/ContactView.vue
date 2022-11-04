@@ -22,6 +22,7 @@
 			</v-container>
 		</v-col>
 
+		
 		<v-col cols="12" md="7" id="map" class="pa-0 map text-center">
 			<iframe
 				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2394.3891827501825!2d23.2020292!3d53.121159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ffec8520e4bdf%3A0x19b740786f22f481!2sCiesielska%202%2C%2015-544%20Bia%C5%82ystok!5e0!3m2!1spl!2spl!4v1667473493413!5m2!1spl!2spl"

@@ -14,7 +14,7 @@
 				</v-list-item>
 			</v-list-item-group>
 		</v-list>
-
+    
 		<p class="text-h4 pb-8">
 			<a href="tel:+48-732-721-521">+48 732 721 521</a></p
 		>

@@ -15,6 +15,7 @@
 	</v-table>
 </template>
 
+
 <script setup>
 const priceTags = [
 	{ name: 'Cięcie płytek (kąt prosty)', price: '15zł' },

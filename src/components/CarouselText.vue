@@ -14,7 +14,7 @@
 		<v-carousel-item>
       <h2>Maksymalna grubość materiału: 200mm</h2>
       </v-carousel-item>
-
+      
 		<v-carousel-item>
       <h2>Maksymalny zakres obrotu głowicy: 360⁰</h2>
     </v-carousel-item>

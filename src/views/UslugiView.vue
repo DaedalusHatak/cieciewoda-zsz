@@ -16,6 +16,7 @@
 		<MaterialList></MaterialList>
 	</v-container>
 </template>
+
 <script setup>
 import HeaderBackground from '../components/HeaderBackground.vue';
 import TablePrices from '../components/TablePrices.vue';

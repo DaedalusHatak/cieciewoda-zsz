@@ -1,5 +1,5 @@
 <template>
-	<v-carousel color="#C0CA33" height="auto" :cycle="cycle" interval="100" theme="dark">
+		<v-carousel color="#C0CA33" height="auto" :cycle="cycle" interval="100" theme="dark">
 		<v-carousel-item contain eager
 			><v-img  eager src="../assets/1.webp"></v-img
 		></v-carousel-item>

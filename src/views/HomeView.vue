@@ -16,6 +16,7 @@
 	/></v-container>
 </template>
 
+
 <script setup>
 // Components
 import CarouselText from '../components/CarouselText.vue';

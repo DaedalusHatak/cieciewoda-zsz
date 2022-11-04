@@ -10,6 +10,7 @@
 		></ContactView>
 	</v-container>
 </template>
+
 <script setup>
 import HeaderBackground from '../components/HeaderBackground.vue';
 import ContactView from '../components/ContactView.vue';
