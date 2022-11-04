@@ -25,7 +25,7 @@ const props = defineProps({
   }
   .background{
     background-color: #212121;
-    background-image: url("./../assets/probva1.svg");
+    background-image: url("./../assets/background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
