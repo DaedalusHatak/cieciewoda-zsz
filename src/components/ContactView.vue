@@ -5,7 +5,7 @@
 			cols="12"
 	
 		>
-			<v-container class="text-center text-sm-left">
+			<v-container class="py-10 text-center text-sm-left">
 				<slot></slot>
 				<p class="text-body-1">Ciesielska 2</p>
 				<p><b>15-544 Białystok</b></p>
@@ -17,7 +17,7 @@
 						mail.toUpperCase()
 					}}
 				</a></p>
-				<p class="pt-8 pb-12"><v-img class="d-sm-none d-flex" eager contain :src="'../assets/' + img"></v-img></p>
+				<p class="pt-sx-8 pb-sx-12"><v-img class="d-sm-none d-flex" eager contain :src="'../assets/' + img"></v-img></p>
 				
 			</v-container>
 			<v-container class="d-none d-sm-block">
