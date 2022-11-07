@@ -44,7 +44,7 @@ const material = [
 
 <style scoped>
 a {
-	color: orange;
-	text-decoration: none;
+	color: #e25a00;
+	
 }
 </style>
