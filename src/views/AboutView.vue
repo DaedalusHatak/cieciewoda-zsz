@@ -2,7 +2,7 @@
 	<v-container class="bg-aqua">
 		<HeaderBackground v-bind:heading="start"></HeaderBackground
 	></v-container>
-	<v-container>
+	<v-container class="bg-grey-lighten-2">
 		<ContactView
 			v-bind:mail="mail"
 			v-bind:number="number"

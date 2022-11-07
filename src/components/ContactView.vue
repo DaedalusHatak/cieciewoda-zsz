@@ -1,9 +1,9 @@
 <template>
-	<v-row class="">
+	<v-row class="mx-auto bg-white">
 		<v-col
-			class="pl-sm-8 px-0  text-h5 d-flex d-sm-column flex-row align-center"
+			class="pl-sm-8 px-0  text-h5 d-flex my-auto flex-row align-center"
 			cols="12"
-			md="7"
+	
 		>
 			<v-container class="text-center text-sm-left">
 				<slot></slot>
@@ -17,7 +17,7 @@
 						mail.toUpperCase()
 					}}
 				</a></p>
-				<p class="pt-8"><v-img class="d-sm-none d-flex" eager contain :src="'../assets/' + img"></v-img></p>
+				<p class="pt-8 pb-12"><v-img class="d-sm-none d-flex" eager contain :src="'../assets/' + img"></v-img></p>
 				
 			</v-container>
 			<v-container class="d-none d-sm-block">
@@ -26,7 +26,7 @@
 		</v-col>
 
 
-		<v-col cols="12" md="5" id="map" class="pa-0 map text-center">
+		<v-col cols="12"  id="map" class="bordered pa-0 map text-center">
 			<iframe
 				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2394.3891827501825!2d23.2020292!3d53.121159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ffec8520e4bdf%3A0x19b740786f22f481!2sCiesielska%202%2C%2015-544%20Bia%C5%82ystok!5e0!3m2!1spl!2spl!4v1667473493413!5m2!1spl!2spl"
 				width="100%"
@@ -58,14 +58,18 @@ const props = defineProps({
 });
 </script>
 <style scoped lang="scss">
+.bordered{
+	border-top: 2px solid #212121;
+}
 div {
 	padding-right: 0 !important;
-	margin: 0 !important;
+	margin: auto  !important;
 }
 .v-row {
+	max-width: 960px;
 	min-height: 500px;
 	.v-img {
-		max-height: 300px !important;
+		max-height: 150px !important;
 	}
 }
 a {
