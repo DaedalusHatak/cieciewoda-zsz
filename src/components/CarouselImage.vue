@@ -1,17 +1,28 @@
 <template>
-		<v-carousel color="#C0CA33" height="auto" :cycle="cycle" interval="100" theme="dark">
-		<v-carousel-item contain eager
-			><v-img  eager src="../assets/1.webp"></v-img
-		></v-carousel-item>
-		<v-carousel-item eager contain
-			><v-img eager src="../assets/2.webp"></v-img></v-carousel-item
-		><v-carousel-item contain eager
-			><v-img eager src="../assets/3.webp"></v-img></v-carousel-item
-		><v-carousel-item contain eager
-			><v-img eager src="../assets/4.webp"></v-img></v-carousel-item
-		><v-carousel-item props.value="'5'" contain eager
-			><v-img    eager src="../assets/5.webp"></v-img
-		></v-carousel-item>
+		<v-carousel class="med" color="#C0CA33"  height="80vh"  :cycle="cycle" interval="100" theme="dark">
+		<v-carousel-item  fade  
+			>
+			
+				<v-img cover src="../assets/1.webp"></v-img
+					>
+			
+			</v-carousel-item>
+		<v-carousel-item fade  
+			>
+			<v-img cover  src="../assets/2.webp"></v-img>
+			</v-carousel-item
+		><v-carousel-item fade  
+			>
+			
+			<v-img cover  src="../assets/3.webp"></v-img></v-carousel-item
+		><v-carousel-item fade  
+			>
+			
+			<v-img cover  src="../assets/4.webp"></v-img></v-carousel-item
+		><v-carousel-item  fade  
+			>
+			
+			<v-img cover  src="../assets/5.webp"></v-img></v-carousel-item>
 	</v-carousel >
 </template>
 
@@ -32,7 +43,35 @@ else{cycle = false;}
 </script>
 <style scoped>
 .v-carousel {
-	max-width: 60vh;
+	text-align:end;
+	
+		max-width: 60vh !important;
 	margin: 0 auto;
 }
+
+  @media screen and (max-width:600px) and (min-width:320px)
+  {
+	.med{
+		height: 65vh !important;
+	}
+	.med img{
+		width:100%;
+		height:100%;
+	}
+  }
+
+  @media screen and (max-width:320px)
+  {
+	.med{
+		height:auto !important;
+	}
+	.med img{
+		width:100%;
+		height:100%;
+	}
+  }
+.v-window__container {
+	height: 0;
+   }
+
 </style>
