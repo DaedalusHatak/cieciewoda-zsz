@@ -1,6 +1,6 @@
 <template>
 	<v-app>
-		<v-app-bar app>
+		<v-app-bar app >
 			<v-toolbar-title
 				><v-img
 					contain
@@ -41,6 +41,7 @@
 					:density="comfortable"
 					flat
 					block
+					@click="drawer = !drawer"
 					nav
 					v-for="items in router.getRoutes()"
 					:key="items.name"
