@@ -4,6 +4,7 @@
 		:show-arrows="false"
 		height="auto"
 		class="maximum"
+		:touch="false"
 		cycle
 		:interval="12000"
 	>
@@ -33,5 +34,8 @@
 .v-carousel-item {
 	padding: 1em 0;
 	transition: 12s !important;
+}
+h2{
+	user-select: none;
 }
 </style>
