@@ -25,6 +25,7 @@ const props = defineProps({
     background-color: aqua;
   }
   .background{
+    scale:1.0;
     background-color: #212121;
     background-image: url("./../assets/background.jpg");
     background-repeat: no-repeat;
