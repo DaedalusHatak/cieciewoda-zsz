@@ -48,13 +48,16 @@ else{cycle = false;}
 		max-width: 60vh !important;
 	margin: 0 auto;
 }
-
+.v-carousel img{
+	scale:1.0;
+}
   @media screen and (max-width:600px) and (min-width:320px)
   {
 	.med{
-		height: 65vh !important;
+		height: auto !important;
 	}
 	.med img{
+		scale:1.0;
 		width:100%;
 		height:100%;
 	}
