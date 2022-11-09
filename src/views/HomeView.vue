@@ -31,16 +31,12 @@ const start = 'Profesjonalne cięcie wodą!';
 }
 .background {	
 	height: 100%;
-	height: -webkit-fill-available;
-	
 	overflow: auto;
 	min-height: 100vh;
 	h1 {
 		padding-bottom: 4em !important;
 	}
 }
-
-
 .v-container {
 	overflow: hidden;
 	padding: 0;
