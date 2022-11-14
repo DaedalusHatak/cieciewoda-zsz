@@ -1,9 +1,13 @@
 <template>
-    <div class="d-flex flex-column block align-center background justify-center text-white">
-        <h1 class="text-xs-h6 text-md-h3 text-lg-h2">{{props.heading}}</h1>
-        <slot> 
-        </slot>
-    </div>
+  
+
+    <div class="d-flex flex-column fill-height block align-center background justify-center text-white">
+      <h1 class="text-xs-h6 text-md-h3 text-lg-h2">{{props.heading}}</h1>
+      <slot> 
+      </slot>
+  </div>
+
+    
   </template>
   <script setup>
   import { defineProps } from 'vue';
@@ -12,6 +16,9 @@ const props = defineProps({
 	heading: {
 		type: String,
 	},
+  apex:{
+    type: String,
+  }
 });
   </script>
   <style>
@@ -25,14 +32,15 @@ const props = defineProps({
     background-color: aqua;
   }
   .background{
-    transform: scale(1,1);
-    background-color: #212121;
-    background-image: url("./../assets/background.jpg");
-    background-repeat: no-repeat;
+    background-image: url("../assets/background-dark-top.jpg");
     background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-blend-mode:soft-light;
+    position: relative;
+    background-position:top;
     min-height: 400px;
+  }
+  img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
   }
   </style>

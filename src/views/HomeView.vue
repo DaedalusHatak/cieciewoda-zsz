@@ -1,6 +1,6 @@
 <template>
 	<v-container class="bgg" height="auto"  center>
-		<HeaderBackground v-bind:heading="start">
+		<HeaderBackground v-bind:apex="height" v-bind:heading="start">
 			<p class="text-h6 mt-16 pt-16">
 				Cięcie materiału metodą Abrasive WaterJet(AWJ).
 			</p>
@@ -23,6 +23,8 @@ import CarouselText from '../components/CarouselText.vue';
 import HeaderBackground from '../components/HeaderBackground.vue';
 import CarouselImage from '../components/CarouselImage.vue';
 const start = 'Profesjonalne cięcie wodą!';
+
+
 </script>
 <style lang="scss" scoped>
 .bg-dark {
@@ -30,9 +32,9 @@ const start = 'Profesjonalne cięcie wodą!';
 	background-color: #212121;
 }
 .background {	
-	height: 100%;
-	overflow: auto;
+	
 	min-height: 100vh;
+	height: 100%;
 	h1 {
 		padding-bottom: 4em !important;
 	}
