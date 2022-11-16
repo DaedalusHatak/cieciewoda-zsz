@@ -1,36 +1,35 @@
 <template>
-	<v-app >
-		<v-app-bar app >
+	<v-app>
+		<v-app-bar app>
 			<v-toolbar-title
-			><v-img
-			v-if="theme.global.name.value==='dark'"
+				><v-img
+					v-if="theme.global.name.value === 'dark'"
 					contain
 					max-height="100"
 					max-width="200"
 					src="./assets/logologo.png"
-				></v-img
-			>
-		<v-img
-		v-else-if="theme.global.name.value==='light'"
-		contain
-
-		max-height="100"
-		max-width="200"
-		src="./assets/logodark.png"
-	></v-img
->
-		</v-toolbar-title>
-		<v-switch class="pr-5 d-flex align-left" color='primary' @click="toggleTheme"></v-switch>
+				></v-img>
+				<v-img
+					v-else-if="theme.global.name.value === 'light'"
+					contain
+					max-height="100"
+					max-width="200"
+					src="./assets/logodark.png"
+				></v-img>
+			</v-toolbar-title>
+			<v-switch
+				class="pr-5 d-flex align-left"
+				color="primary"
+				@click="toggleTheme"
+			></v-switch>
 			<v-app-bar-nav-icon
 				class="hidden-sm-and-up"
 				variant="text"
 				@click="drawer = !drawer"
 			>
-			
 			</v-app-bar-nav-icon>
-		
+
 			<v-toolbar-items class="hidden-xs">
-				
 				<v-btn
 					flat
 					v-for="items in router.getRoutes()"
@@ -49,7 +48,6 @@
 			bottom
 			temporary
 		>
-		
 			<v-list>
 				<v-btn
 					size="x-large"
@@ -110,18 +108,16 @@ const items = [
 const theme = useTheme();
 function toggleTheme() {
 	theme.global.name.value = theme.global.current.value.dark ? 'light' : 'dark';
-	localStorage  
+	localStorage.themeRecognition = theme.global.name.value;
 }
-
 </script>
 
-
 <style>
-.v-switch{
-	max-width:50px;
+.v-switch {
+	max-width: 50px;
 }
-.v-switch__thumb{
-	color:#212121;
+.v-switch__thumb {
+	color: #212121;
 }
 .bg-dark {
 	background-color: #292c2f;
