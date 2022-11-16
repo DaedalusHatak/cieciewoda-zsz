@@ -1,5 +1,5 @@
 <template>
-	<v-table class="maximum border mx-auto w-100" theme="dark">
+	<v-table class="maximum border mx-auto w-100  bg-central" theme="dark">
 		<thead>
 			<tr>
 				<th class="text-center">Usługa</th>

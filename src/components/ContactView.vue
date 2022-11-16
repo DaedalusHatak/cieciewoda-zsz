@@ -1,5 +1,5 @@
 <template>
-	<v-row class="mx-auto bg-white">
+	<v-row class="mx-auto bg-central">
 		<v-col
 			class="pl-sm-8 px-0  text-h5 d-flex my-auto flex-row align-center"
 			cols="12"

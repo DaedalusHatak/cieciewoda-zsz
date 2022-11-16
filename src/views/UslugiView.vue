@@ -1,5 +1,5 @@
 <template>
-	<v-container class="bg-aqua">
+	<v-container>
 		<HeaderBackground v-bind:heading="start"></HeaderBackground
 	></v-container>
 	<v-container>
@@ -12,7 +12,7 @@
 	<v-container class="py-12 dark">
 		<TablePrices></TablePrices>
 	</v-container>
-	<v-container class="white">
+	<v-container class=" py-12" >
 		<MaterialList></MaterialList>
 	</v-container>
 </template>

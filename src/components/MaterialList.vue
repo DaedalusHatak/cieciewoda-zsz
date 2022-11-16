@@ -1,12 +1,12 @@
 <template>
-	<v-container class="text-md-h5 py-12">
+	<v-container class="text-md-h5 bg-surface">
 		<v-list flat class="pb-5">
 			<v-subheader
 				><b
 					>Cięcie wodą daje możliwość wycinania z precyzją 0,1mm materiałów:</b
 				></v-subheader
 			>
-			<v-list-item-group v-model="selectedItem" color="primary">
+			<v-list-item-group v-model="selectedItem" >
 				<v-list-item v-for="(item, i) in material" :key="i">
 					<v-list-item-content>
 						<v-list-item-title v-text="item"></v-list-item-title>
