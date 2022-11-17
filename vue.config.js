@@ -5,7 +5,8 @@ module.exports = defineConfig({
     iconPaths: {
        favicon32: 'img/icons/wer.ico',
        favicon16: 'img/icons/wer.ico',
-       favicon: 'img/icons/wer.ico'
+       favicon: 'img/icons/wer.ico',
+       faviconSVG: 'img/icons/wer.ico'
     }
   },
   pluginOptions: {
