@@ -9,6 +9,8 @@ module.exports = defineConfig({
        faviconSVG: 'img/icons/wer.ico',
        faviconChrome: 'img/icons/wer.ico',
        msTileImage: 'img/icons/wer.ico',
+       appleTouchIcon: 'img/icons/wer.ico',
+       maskIcon: 'img/icons/wer.ico',
     }
   },
   pluginOptions: {
