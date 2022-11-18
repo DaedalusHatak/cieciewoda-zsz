@@ -70,26 +70,41 @@
 			<!-- If using vue-router -->
 			<router-view></router-view>
 		</v-main>
-		<v-footer class="bg-dark text-white">
-			<v-row class="justify-space-between my-4 text-left">
-				<v-col cols="12" md="4" class="py-5 text-left">
-					<v-img class="img-footer" src="./assets/logologo.png"></v-img>
-				</v-col>
-				<v-col class="py-5" cols="12" md="4">
-					<p class="text-body-2">Ciesielska 2</p>
-					<p><b>15-544 Białystok</b></p>
-					<p class="my-4"> <a href="tel:+48 732 721 521">+48 732 721 521</a></p>
-					<p class="footer-mail"> <a href="mailto:cieciewoda3d@wp.pl">CIECIEWODA3D@WP.PL</a></p>
-				</v-col>
-				<v-col cols="12" md="4" class="py-5 align-center">
-					<h2>O firmie</h2>
-					<p class="py-5"
-						>Firma powstała w roku 2015. Świadczymy fachowe usługi „abrasive
-						waterjet” - czyli cięcie strumieniem wody w najróżniejszych
-						materiałach oraz pod różnymi kątami.</p
-					>
-				</v-col>
-			</v-row>
+		<v-footer class="bg-dark text-white ">
+			<v-container class="footer-width mx-auto">
+				<v-row class="justify-space-between my-4 text-left">
+					<v-col cols="12" sm="4" md="4" class="py-5 pr-0 text-left">
+						<v-img class="img-footer" src="./assets/logologo.png"></v-img>
+						<div class="pl-3">
+							<p class="text-body-2">Ciesielska 2</p>
+							<p><b>15-544 Białystok</b></p>
+							<p class="my-4"> <a href="tel:+48 732 721 521">+48 732 721 521</a></p>
+							<p class="footer-mail"> <a href="mailto:cieciewoda3d@wp.pl">CIECIEWODA3D@WP.PL</a></p>
+						</div>
+						
+					</v-col>
+					<v-col class="py-5" cols="12" sm="4" md="4">
+							
+							<v-list class=" pa-0 bg-dark text-white">
+					<h2>Godziny otwarcia</h2>
+								<v-list-item><p>Poniedziałek - Piątek: 8.00–16.00</p>
+								</v-list-item>
+								<v-list-item><p>Sobota: nieczynne (do odwołania)</p>
+								</v-list-item>
+								<v-list-item><p>Niedziela: nieczynne</p>
+								</v-list-item>
+							</v-list>
+					</v-col>
+					<v-col cols="12" sm="3" md="4" class="py-5 pr-4 align-center">
+						<h2>O firmie</h2>
+						<p class="py-5 "
+							>Firma powstała w roku 2015. Świadczymy fachowe usługi „abrasive
+							waterjet” - czyli cięcie strumieniem wody w najróżniejszych
+							materiałach oraz pod różnymi kątami.</p
+						>
+					</v-col>
+				</v-row>
+			</v-container>
 		</v-footer>
 	</v-app>
 </template>
@@ -113,6 +128,17 @@ function toggleTheme() {
 </script>
 
 <style>
+.v-footer{
+	width: 100%;
+}
+.footer-width{
+	max-width: 1200px;
+}
+.v-footer .v-list-item{
+	
+	padding: 20px 0 !important;
+	border-bottom: #FFF 1px solid;
+}
 .footer-mail{
 	word-break: break-all;
 }
@@ -127,6 +153,7 @@ function toggleTheme() {
 	background-color: #292c2f;
 }
 .v-footer {
+	padding:0;
 	margin: 0;
 	min-height: 300px !important;
 }
@@ -139,8 +166,8 @@ function toggleTheme() {
 	color: orange;
 }
 .v-footer .v-img {
-	max-width: 290px;
-	max-height: 290px;
+	max-width: 160px;
+	max-height: 160px;
 	width: 100% !important;
 	height: auto !important;
 }
