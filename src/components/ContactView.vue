@@ -12,8 +12,8 @@
 				<p class="py-4 links my-4">
 					<a class="" href="tel:+48 732 721 521">{{ number }}</a>
 				</p>
-				<p class="py-4 links text-truncate">
-					<a class="mail text-truncate" :href="`mailto:${mail}`">{{
+				<p class="py-4 links ">
+					<a class="mail " :href="`mailto:${mail}`">{{
 						mail.toUpperCase()
 					}}
 				</a></p>
@@ -60,7 +60,11 @@ const props = defineProps({
 <style scoped lang="scss">
 
 .links {
+	
 	font-size: 1.1rem;
+}
+.mail{
+	word-break:break-all;
 }
 .bordered{
 	border-top: 2px solid #212121;

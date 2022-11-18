@@ -18,7 +18,7 @@
 		<p class="text-h4 pb-8">
 			<a href="tel:+48-732-721-521">+48 732 721 521</a></p
 		>
-		<p class="text-h5 text-md-h4 pb-8">
+		<p class="text-h5 text-md-h4 pb-8 word-break">
 			<a href="mailto:uslugiwoda3d@wp.pl">USLUGIWODA3D@WP.PL</a></p
 		>
 		<p class="text-red-darken-2"
@@ -43,6 +43,9 @@ const material = [
 </script>
 
 <style scoped>
+.v-list-item-title{
+	white-space:unset !important;
+}
 a {
 	color: #e25a00;
 	

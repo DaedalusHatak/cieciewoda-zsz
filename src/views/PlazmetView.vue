@@ -12,6 +12,7 @@
 			<p class="firm text-h4 py-6"
 				><b
 					><v-btn
+					class="text-h6 text-sm-h4"
 						rounded="lg"
 						color="#da251d"
 						:href="`http://www.${firm}.com.pl/`"
@@ -35,7 +36,7 @@ const firm = 'PLAZMET';
 
 <style>
 .firm a {
-	font-size: 2rem;
+
 	color: #000;
 }
 </style>

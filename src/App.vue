@@ -73,13 +73,13 @@
 		<v-footer class="bg-dark text-white">
 			<v-row class="justify-space-between my-4 text-left">
 				<v-col cols="12" md="4" class="py-5 text-left">
-					<v-img src="./assets/logologo.png"></v-img>
+					<v-img class="img-footer" src="./assets/logologo.png"></v-img>
 				</v-col>
 				<v-col class="py-5" cols="12" md="4">
 					<p class="text-body-2">Ciesielska 2</p>
 					<p><b>15-544 Białystok</b></p>
 					<p class="my-4"> <a href="tel:+48 732 721 521">+48 732 721 521</a></p>
-					<p> <a href="mailto:cieciewoda3d@wp.pl">CIECIEWODA3D@WP.PL</a></p>
+					<p class="footer-mail"> <a href="mailto:cieciewoda3d@wp.pl">CIECIEWODA3D@WP.PL</a></p>
 				</v-col>
 				<v-col cols="12" md="4" class="py-5 align-center">
 					<h2>O firmie</h2>
@@ -113,6 +113,10 @@ function toggleTheme() {
 </script>
 
 <style>
+.footer-mail{
+	word-break: break-all;
+}
+
 .v-switch {
 	max-width: 50px;
 }
@@ -123,6 +127,7 @@ function toggleTheme() {
 	background-color: #292c2f;
 }
 .v-footer {
+	margin: 0;
 	min-height: 300px !important;
 }
 .v-footer p {
