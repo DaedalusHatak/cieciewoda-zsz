@@ -1,7 +1,7 @@
 <template>
 	<v-row class="mx-auto bg-central">
 		<v-col
-			class="pl-sm-8 px-0  text-h5 d-flex my-auto flex-row align-center"
+			class="pl-sm-8 px-0 my-auto text-sm-h5 text-h6 d-flex flex-row align-center"
 			cols="12"
 	
 		>
@@ -9,11 +9,11 @@
 				<slot></slot>
 				<p class="text-body-1">Ciesielska 2</p>
 				<p><b>15-544 Białystok</b></p>
-				<p class="py-4 my-4">
+				<p class="py-4 links my-4">
 					<a class="" href="tel:+48 732 721 521">{{ number }}</a>
 				</p>
-				<p class="py-4">
-					<a class="" :href="`mailto:${mail}`">{{
+				<p class="py-4 links text-truncate">
+					<a class="mail text-truncate" :href="`mailto:${mail}`">{{
 						mail.toUpperCase()
 					}}
 				</a></p>
@@ -58,6 +58,10 @@ const props = defineProps({
 });
 </script>
 <style scoped lang="scss">
+
+.links {
+	font-size: 1.1rem;
+}
 .bordered{
 	border-top: 2px solid #212121;
 }
