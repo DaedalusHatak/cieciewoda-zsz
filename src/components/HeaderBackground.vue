@@ -21,9 +21,6 @@ const props = defineProps({
   margin: 0;
   max-width: 100%;
 }
-.bg-aqua {
-  background-color: aqua;
-}
 .background {
   background-image: url("../assets/background-dark-top.jpg");
   background-attachment: fixed;

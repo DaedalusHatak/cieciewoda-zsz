@@ -1,5 +1,5 @@
 <template>
-	<v-container class="bgg"  center>
+	<v-container center>
 		<HeaderBackground v-bind:apex="height" v-bind:heading="start">
 			<p class="text-h6 mt-16 pt-16">
 				Cięcie materiału metodą Abrasive WaterJet(AWJ).
@@ -46,8 +46,5 @@ const start = 'Profesjonalne cięcie wodą!';
 	margin: 0;
 	max-width: 100%;
 	
-}
-.bg-aqua {
-	background-color: aqua;
 }
 </style>

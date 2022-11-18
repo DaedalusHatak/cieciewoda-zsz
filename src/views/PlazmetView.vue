@@ -1,5 +1,5 @@
 <template>
-	<v-container class="bg-aqua">
+	<v-container >
 		<HeaderBackground v-bind:heading="start"></HeaderBackground
 	></v-container>
 	<v-container class="bg-grey-lighten-2">
