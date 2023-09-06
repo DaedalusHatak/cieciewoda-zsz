@@ -6,7 +6,7 @@ import UslugiView from '../views/UslugiView.vue'
 const routes = [
   {
     path: '/',
-    name: 'start',
+    name: 'główna',
     component: HomeView
   },
   {

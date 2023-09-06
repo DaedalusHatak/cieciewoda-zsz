@@ -22,7 +22,7 @@
 				
 			</v-container>
 			<v-container class="d-none d-sm-block">
-				<v-img  eager contain :src="'assets/' + props.img"></v-img>
+				<v-img  eager contain :src="'assets/' + props.img" alt="Logo firmy"></v-img>
 			</v-container>
 		</v-col>
 

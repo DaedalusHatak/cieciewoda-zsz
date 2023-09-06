@@ -117,10 +117,7 @@ import { useTheme } from 'vuetify';
 import router from './router';
 const drawer = ref(false);
 const themie = 'light';
-const items = [
-	{ title: 'Home', value: 'home', link: '/' },
-	{ title: 'About', value: 'about', link: '/about' },
-];
+
 
 const theme = useTheme();
 function toggleTheme() {
