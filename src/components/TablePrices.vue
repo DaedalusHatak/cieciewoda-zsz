@@ -18,9 +18,9 @@
 
 <script setup>
 const priceTags = [
-	{ name: 'Cięcie płytek 1m.b. (kąt prosty)', price: '15zł' },
-	{ name: 'Cięcie płytek 1m.b. (kąt 45st)', price: '30zł' },
-	{ name: 'Minuta cięcia (inny materiał)', price: '6zł' },
+	{ name: 'Cięcie płytek 1m.b. (kąt prosty)', price: '20zł' },
+	{ name: 'Cięcie płytek 1m.b. (kąt 45st)', price: '40zł' },
+	{ name: 'Minuta cięcia (inny materiał)', price: '7zł' },
 	{ name: 'Przygotowanie projektu', price: 'indywidualna' },
 ];
 </script>
