@@ -7,7 +7,7 @@
 					contain
 					max-height="100"
 					max-width="200"
-					src="./assets/logologo.png"
+					src="@/assets/logologo.png"
 					alt="Cięcie wodą 3D"
 				></v-img>
 				<v-img
@@ -15,7 +15,7 @@
 					contain
 					max-height="100"
 					max-width="200"
-					src="./assets/logodark.png"
+					src="@/assets/logodark.png"
 					alt="Cięcie wodą 3D"
 				></v-img>
 			</v-toolbar-title>
@@ -76,7 +76,7 @@
 			<v-container class="footer-width mx-auto">
 				<v-row class="justify-space-between my-4 text-left">
 					<v-col cols="12" sm="4" md="4" class="py-5 pr-0 text-left">
-						<v-img class="img-footer" src="./assets/logologo.png" alt="Cięcie wodą"></v-img>
+						<v-img class="img-footer" src="@/assets/logologo.png" alt="Cięcie wodą"></v-img>
 						<div class="pl-3">
 							<p class="text-body-2">Ciesielska 2</p>
 							<p><b>15-544 Białystok</b></p>

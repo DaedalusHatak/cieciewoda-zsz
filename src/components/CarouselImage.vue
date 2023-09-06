@@ -3,26 +3,26 @@
 		<v-carousel-item  fade  
 			>
 			
-				<v-img cover src="../assets/1.webp"></v-img
+				<v-img cover src="@/assets/1.webp"></v-img
 					>
 			
 			</v-carousel-item>
 		<v-carousel-item fade  
 			>
-			<v-img cover  src="../assets/2.webp"></v-img>
+			<v-img cover  src="@/assets/2.webp"></v-img>
 			</v-carousel-item
 		><v-carousel-item fade  
 			>
 			
-			<v-img cover  src="../assets/3.webp"></v-img></v-carousel-item
+			<v-img cover  src="@/assets/3.webp"></v-img></v-carousel-item
 		><v-carousel-item fade  
 			>
 			
-			<v-img cover  src="../assets/4.webp"></v-img></v-carousel-item
+			<v-img cover  src="@/assets/4.webp"></v-img></v-carousel-item
 		><v-carousel-item  fade  
 			>
 			
-			<v-img cover  src="../assets/5.webp"></v-img></v-carousel-item>
+			<v-img cover  src="@/assets/5.webp"></v-img></v-carousel-item>
 	</v-carousel >
 </template>
 

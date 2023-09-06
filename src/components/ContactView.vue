@@ -17,11 +17,12 @@
 						mail.toUpperCase()
 					}}
 				</a></p>
-				<p class="pt-sx-8 pb-sx-12"><v-img class="d-sm-none d-flex" eager contain :src="'../assets/' + img"></v-img></p>
+
+				<p class="pt-sx-8 pb-sx-12"><v-img class="d-sm-none d-flex" eager contain :src="'assets/' + props.img"></v-img></p>
 				
 			</v-container>
 			<v-container class="d-none d-sm-block">
-				<v-img  eager contain :src="'../assets/' + img"></v-img>
+				<v-img  eager contain :src="'assets/' + props.img"></v-img>
 			</v-container>
 		</v-col>
 

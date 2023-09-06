@@ -22,7 +22,7 @@ const props = defineProps({
   max-width: 100%;
 }
 .background {
-  background-image: url("../assets/background-dark-top.jpg");
+  background-image: url("@/assets/background-dark-top.jpg");
   background-attachment: fixed;
   position: relative;
   background-position: top;
