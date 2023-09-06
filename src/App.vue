@@ -8,6 +8,7 @@
 					max-height="100"
 					max-width="200"
 					src="./assets/logologo.png"
+					alt="Cięcie wodą 3D"
 				></v-img>
 				<v-img
 					v-else-if="theme.global.name.value === 'light'"
@@ -15,6 +16,7 @@
 					max-height="100"
 					max-width="200"
 					src="./assets/logodark.png"
+					alt="Cięcie wodą 3D"
 				></v-img>
 			</v-toolbar-title>
 			<v-switch
@@ -74,7 +76,7 @@
 			<v-container class="footer-width mx-auto">
 				<v-row class="justify-space-between my-4 text-left">
 					<v-col cols="12" sm="4" md="4" class="py-5 pr-0 text-left">
-						<v-img class="img-footer" src="./assets/logologo.png"></v-img>
+						<v-img class="img-footer" src="./assets/logologo.png" alt="Cięcie wodą"></v-img>
 						<div class="pl-3">
 							<p class="text-body-2">Ciesielska 2</p>
 							<p><b>15-544 Białystok</b></p>
@@ -85,13 +87,13 @@
 					</v-col>
 					<v-col class="py-5 pl-0 pl-sm-5 pr-0" cols="12" sm="4" md="4">
 							
-							<v-list class=" pa-0 bg-dark text-white">
+							<v-list role="list" class=" pa-0 bg-dark text-white">
 					<h2 class="ml-5 ml-sm-0 ">Godziny otwarcia</h2>
-								<v-list-item><p class="ml-5 ml-sm-0">Poniedziałek - Piątek: 8.00–16.00</p>
+								<v-list-item role="listitem"><p class="ml-5 ml-sm-0">Poniedziałek - Piątek: 8.00–16.00</p>
 								</v-list-item>
-								<v-list-item><p class="ml-5 ml-sm-0">Sobota: nieczynne (do odwołania)</p>
+								<v-list-item role="listitem"><p class="ml-5 ml-sm-0">Sobota: nieczynne (do odwołania)</p>
 								</v-list-item>
-								<v-list-item><p class="ml-5 ml-sm-0">Niedziela: nieczynne</p>
+								<v-list-item role="listitem"><p class="ml-5 ml-sm-0">Niedziela: nieczynne</p>
 								</v-list-item>
 							</v-list>
 					</v-col>
