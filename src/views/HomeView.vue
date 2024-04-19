@@ -12,16 +12,22 @@
 	>
 	<v-container fluid class="pa-0"><CarouselText /></v-container>
 	<v-container fluid class="bg-dark pa-0"
-		><h1 class="pt-5">Nasza galeria:</h1><CarouselImage
+		><h3 class="pt-5">Nasza galeria:</h3><CarouselImage
 	/></v-container>
 </template>
 
 
 <script setup>
+
 // Components
 import CarouselText from '../components/CarouselText.vue';
 import HeaderBackground from '../components/HeaderBackground.vue';
 import CarouselImage from '../components/CarouselImage.vue';
+import { useHead } from '@vueuse/head';
+useHead({
+  title: 'Cięcie wodą 3D'
+})
+
 const start = 'Profesjonalne cięcie wodą!';
 
   // We execute the same script as before

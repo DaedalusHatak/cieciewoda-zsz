@@ -18,6 +18,10 @@ import HeaderBackground from '../components/HeaderBackground.vue';
 import ContactView from '../components/ContactView.vue';
 import { useTheme } from 'vuetify';
 import { watch } from 'vue';
+import { useHead } from '@vueuse/head';
+useHead({
+  title: 'Kontakt cięcie wodą'
+})
 const start = 'Kontakt';
 const number = '+48 732 721 521';
 const mail = 'uslugiwoda3d@wp.pl';

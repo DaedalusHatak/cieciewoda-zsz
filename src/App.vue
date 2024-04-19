@@ -88,7 +88,7 @@
 					<v-col class="py-5 pl-0 pl-sm-5 pr-0" cols="12" sm="4" md="4">
 							
 							<v-list role="list" class=" pa-0 bg-dark text-white">
-					<h2 class="ml-5 ml-sm-0 ">Godziny otwarcia</h2>
+					<h3 class="ml-5 ml-sm-0 ">Godziny otwarcia</h3>
 								<v-list-item role="listitem"><p class="ml-5 ml-sm-0">Poniedziałek - Piątek: 8.00–16.00</p>
 								</v-list-item>
 								<v-list-item role="listitem"><p class="ml-5 ml-sm-0">Sobota: nieczynne (do odwołania)</p>
@@ -98,7 +98,7 @@
 							</v-list>
 					</v-col>
 					<v-col cols="12" sm="3" md="4" class="py-5 pr-sm-4 align-center">
-						<h2>O firmie</h2>
+						<h3>O firmie</h3>
 						<p class="py-5 pr-0"
 							>Firma powstała w roku 2015. Świadczymy fachowe usługi „abrasive
 							waterjet” - czyli cięcie strumieniem wody w najróżniejszych

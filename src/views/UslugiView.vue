@@ -21,6 +21,10 @@
 import HeaderBackground from '../components/HeaderBackground.vue';
 import TablePrices from '../components/TablePrices.vue';
 import MaterialList from '../components/MaterialList.vue';
+import { useHead } from '@vueuse/head';
+useHead({
+  title: 'Usługi cięcia wodą 3D'
+})
 const start = 'Usługi';
 </script>
 

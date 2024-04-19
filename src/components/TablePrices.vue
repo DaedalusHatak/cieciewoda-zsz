@@ -8,7 +8,7 @@
 		</thead>
 		<tbody>
 			<tr v-for="item in priceTags" :key="item.name">
-				<td>{{ item.name }}</td>
+				<td><strong>{{ item.name }}</strong></td>
 				<td>{{ item.price }}</td>
 			</tr>
 		</tbody>

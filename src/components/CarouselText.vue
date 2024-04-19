@@ -9,19 +9,19 @@
 		:interval="12000"
 	>
 		<v-carousel-item>
-      <h2>Stół, służący do obróbki elementów: 3x2m</h2>
+      <h3>Stół, służący do obróbki elementów: 3x2m</h3>
     </v-carousel-item>
 
 		<v-carousel-item>
-      <h2>Maksymalna grubość materiału: 200mm</h2>
+      <h3>Maksymalna grubość materiału: 200mm</h3>
       </v-carousel-item>
       
 		<v-carousel-item>
-      <h2>Maksymalny zakres obrotu głowicy: 360⁰</h2>
+      <h3>Maksymalny zakres obrotu głowicy: 360⁰</h3>
     </v-carousel-item>
 
 		<v-carousel-item>
-      <h2>Maksymalny kąt położenia głowicy: 60⁰</h2>
+      <h3>Maksymalny kąt położenia głowicy: 60⁰</h3>
     </v-carousel-item>
 	</v-carousel>
 </template>

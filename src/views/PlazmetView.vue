@@ -27,6 +27,10 @@
 <script setup>
 import HeaderBackground from '../components/HeaderBackground.vue';
 import ContactView from '../components/ContactView.vue';
+import { useHead } from '@vueuse/head';
+useHead({
+  title: 'Kontakt Plazmet'
+})
 const start = 'Plazmet';
 const number = '+48 602 615 104';
 const mail = 'plazmetbialystok@o2.pl';
